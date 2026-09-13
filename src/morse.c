@@ -1,5 +1,4 @@
 #include "morse.h"
-#include "fat_string.h"
 #include "dynamic_array.h"
 
 #include <ctype.h>

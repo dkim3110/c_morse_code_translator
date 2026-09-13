@@ -1,7 +1,7 @@
 #ifndef MORSE_H_
 #define MORSE_H_
 
-#include "fat_string.h"
+#include "string_view.h"
 
 #define LOOKUP_LEN ('Z' + 1)
 
