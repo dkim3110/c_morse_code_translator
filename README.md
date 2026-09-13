@@ -27,7 +27,7 @@ cmorse string to translate [flag]
 
 ## FLAGS:
 
-`-h, --help`: Prints this help message; overrides all arguments
+`-h, --help`: Prints help message; overrides all arguments
 
 `-m, --morse`: Translates Morse code into English; must not contain alphanumeric characters
 
