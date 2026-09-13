@@ -119,6 +119,7 @@ static void morse_to_alpha(int argc, char **argv) {
 					fputs("-fatal: failed to allocate memory\n", stdout);
 					goto free_array;
 				}
+				break;
 			}
 		}
 	}
