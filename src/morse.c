@@ -72,7 +72,7 @@ static void alpha_to_morse(int argc, char **argv) {
 		for (int m = 0; argv[n][m] != '\0'; m++) {
 			char curr = toupper(argv[n][m]);
 			if ((curr < '0') || (curr > 'Z')) continue;
-			if ((curr < 'A') && (curr > '9')) continue;
+			if (!isalnum(curr)) continue;
 
 			char *alpha = lookup[(unsigned char) curr];
 			if (!alpha) continue;
@@ -110,7 +110,7 @@ static void morse_to_alpha(int argc, char **argv) {
 		}
 
 		for (char c = '0'; c < LOOKUP_LEN; c++) {
-			if ((c < 'A') && (c > '9')) continue;
+			if (!isalnum(c)) continue;
 
 			str prefix = to_str(lookup[(unsigned char) c]);
 
