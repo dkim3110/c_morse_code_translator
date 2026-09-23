@@ -8,7 +8,7 @@ A simple command-line utility to translate Morse code to and from English.
 
 ```bash
 # Build
-git clone
+git clone https://github.com/dkim3110/c_morse_code_translator.git
 cd c_morse_code_translator
 make
 
